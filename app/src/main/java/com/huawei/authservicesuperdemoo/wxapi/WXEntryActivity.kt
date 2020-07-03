@@ -34,26 +34,26 @@ class WXEntryActivity : Activity(), IWXAPIEventHandler {
         Logger.d("WXEntryActivity onResp  baseResp = $baseResp")
 
         when (baseResp?.type) {
-            // 授权登录
+     
             ConstantsAPI.COMMAND_SENDAUTH -> {
                 when (baseResp.errCode) {
-                    // 用户同意了授权
+                
                     BaseResp.ErrCode.ERR_OK -> {
                         val code = (baseResp as? SendAuth.Resp)?.code
                         var accessToken: AccessTokenInfo? = null
-                        // 请求 Access Token
+             
                         WeChatHelperRetrofitManager.getAccessToken(MetaUtil.getWeChatAppId(applicationContext), MetaUtil.getWeChatSecret(applicationContext), code)
                             .filter { accessTokenInfo ->
                                 accessToken = accessTokenInfo
                                 val isSuccess = accessTokenInfo.isSuccess()
                                 if (!isSuccess) {
-                                    // 请求AccessToken失败
+                                   
                                     WeChatBaseHelper.mOnWeChatAuthLoginListener?.onWeChatAuthLoginError(accessTokenInfo.errcode, accessTokenInfo.errmsg)
                                     WeChatBaseHelper.mOnWeChatAuthLoginListener = null
                                 }
                                 return@filter isSuccess
                             }
-                            // 请求用户信息
+                     
                             .flatMap { accessTokenInfo -> WeChatHelperRetrofitManager.getWeChatUserInfo(accessTokenInfo.access_token, accessTokenInfo.openid) }
                             .subscribeBy(
                                 onNext = { weChatUserInfo ->
