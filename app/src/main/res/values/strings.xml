@@ -4,17 +4,17 @@
     <string name="facebook_app_id">304832310921698</string>
     <string name="fb_login_protocol_scheme">fb304832310921698</string>
 
-    <string name="twitter_consumer_key">3fsfsaf3f</string>
-    <string name="twitter_consumer_secret">fb3fsfsaf3f</string>
-    <string name="twitter_callback_url">https://dfds.com</string>
+    <string name="twitter_consumer_key"></string>
+    <string name="twitter_consumer_secret"></string>
+    <string name="twitter_callback_url"></string>
 
-    <string name="wechat_app_id">wxfbc0cf1262af91c3</string>
-    <string name="wechat_app_secret">23fa76dd0a33a92d9c936d1a372537ac</string>
+    <string name="wechat_app_id"></string>
+    <string name="wechat_app_secret"></string>
 
-    <string name="weibo_app_key">794670458</string>
+    <string name="weibo_app_key"></string>
     <string name="weibo_channel">weibo</string>
 
-    <string name="qq_app_id">1106281197</string>
+    <string name="qq_app_id"></string>
 
     <string name="google_app_id">335861146867-iih13ci4fgf1tu0th4k9kj4ujna388cd.apps.googleusercontent.com</string>
 
