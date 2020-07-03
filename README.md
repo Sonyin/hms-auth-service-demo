@@ -23,8 +23,8 @@ Third-party accounts and others
 Requirements
 ------------
 
- - [Android SDK](http://developer.android.com/sdk/index.html).
- - Android [7.0 (API 24) ](http://developer.android.com/tools/revisions/platforms.html#7.0).
+ - [Android SDK](http://developer.android.com/sdk/index.html)
+ - Android [7.0 (API 24) ](http://developer.android.com/tools/revisions/platforms.html#7.0)
  - Android SDK Tools
  - Android SDK Build tools 29.0.3
  - Android Support Repository
