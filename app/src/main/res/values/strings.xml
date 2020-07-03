@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Auth Service Super Demo</string>
+
+    <string name="facebook_app_id">304832310921698</string>
+    <string name="fb_login_protocol_scheme">fb304832310921698</string>
+
+    <string name="twitter_consumer_key">3fsfsaf3f</string>
+    <string name="twitter_consumer_secret">fb3fsfsaf3f</string>
+    <string name="twitter_callback_url">https://dfds.com</string>
+
+    <string name="wechat_app_id">wxfbc0cf1262af91c3</string>
+    <string name="wechat_app_secret">23fa76dd0a33a92d9c936d1a372537ac</string>
+
+    <string name="weibo_app_key">794670458</string>
+    <string name="weibo_channel">weibo</string>
+
+    <string name="qq_app_id">1106281197</string>
+
+    <string name="google_app_id">335861146867-iih13ci4fgf1tu0th4k9kj4ujna388cd.apps.googleusercontent.com</string>
+
+    <string name="sign_anonymous">Sign in Anonymously</string>
+    <string name="sign_with_email">Sign in with Email</string>
+    <string name="sign_with_huawei_id">Sign in with Huawei ID</string>
+    <string name="sign_with_huawei_game">Sign in with Huawei Game Service</string>
+    <string name="verify_sent_email">Verification code sent to your account.Please, check your code!</string>
+    <string name="verify_sent_phone">Verification code sent to your phone.Please, check your code!</string>
+    <string name="an_error_is_occurred">An error is occurred.</string>
+    <string name="sign_out">Sign in Out</string>
+    <string name="sign_with_self_owned_account">Sign in with self owned account</string>
+    <string name="sign_with_we_chat">Sign in with WeChat</string>
+    <string name="sign_with_facebook">Sign in with Facebook</string>
+    <string name="sign_with_twitter">Sign in with Twitter</string>
+    <string name="sign_with_weibo">Sign in with Weibo</string>
+    <string name="sign_with_qq">Sign in with QQ</string>
+    <string name="sign_with_google">Sign in with Google</string>
+    <string name="sign_with_google_play_game">Sign in with Google Play Game</string>
+    <string name="sign_with_mobile_phone">Sign in with Mobile Phone</string>
+
+    <string name="errcode_success">Success</string>
+    <string name="errcode_cancel">Cancel</string>
+    <string name="errcode_deny">Deny</string>
+    <string name="errcode_unsupported">Unsupported</string>
+    <string name="errcode_unknown">Unknown</string>
+    <string name="weibosdk_demo_toast_auth_success">Weibo auth success</string>
+    <string name="weibosdk_demo_toast_auth_canceled">Weibo auth is canceled.</string>
+    <string name="email_login">Email Login</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_code">Enter code</string>
+    <string name="enter_pass">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="register">Register</string>
+    <string name="login_with_code">Login with code</string>
+    <string name="enter_phone">Enter your phone</string>
+    <string name="enter_country_code">Enter country code</string>
+    <string name="verify_phone">Verify phone</string>
+    <string name="phone_login">Phone Login</string>
+    <string name="twitter_login">Twitter Login</string>
+    <string name="login_with_twitter">Login with Twitter</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_google_game">Login With Google Game Service</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="google_login">Google Login</string>
+    <string name="sign_with_google_and_game_service">Sign in with Google and Game Service</string>
+    <string name="login_with_wechat">Login with WeChat</string>
+    <string name="wechat_login">WeChat Login</string>
+    <string name="weibo_login">Weibo Login</string>
+    <string name="login_with_weibo">Login with Weibo</string>
+    <string name="qq_login">QQ Login</string>
+    <string name="login_with_qq">Login With QQ</string>
+</resources>

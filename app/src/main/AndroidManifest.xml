@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.authservicesuperdemoo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.huawei.authservicesuperdemoo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".email.EmailActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".phone.PhoneActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".twitter.TwitterActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".facebook.FacebookSignActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".google.GoogleSignActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".wechat.WeChatSignActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".weibo.WeiboSignActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".qq.QQSignActivity" android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="net.sourceforge.simcpux"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity-alias
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:targetActivity=".wxapi.WXEntryActivity" />
+
+        <meta-data android:name="wechat_app_id" android:value="@string/wechat_app_id" />
+        <meta-data android:name="wechat_app_secret" android:value="@string/wechat_app_secret" />
+
+        <meta-data android:name="WEIBO_APPKEY" android:value="@string/weibo_app_key" />
+        <meta-data android:name="WEIBO_CHANNEL" android:value="@string/weibo_channel" />
+
+    </application>
+
+</manifest>
