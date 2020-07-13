@@ -43,7 +43,8 @@ Reference
 ------------
 
  - [Huawei AppGallery Connect Auth Service](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-service-introduction)
- - [How to add Twitter Login button to your Android app using Kotlin](https://johncodeos.com/how-to-add-twitter-login-button-to-your-android-app-using-kotlin/)
+ - [How to add Twitter Login button to your Android app using Kotlin](https://johncodeos.com/how-to-add-twitter-login-button-to-your-android-app-using-kotlin)
+ - [https://github.com/kongqw/WeChatHelper](https://github.com/kongqw/WeChatHelper)
 
  Preparations
  ------------
